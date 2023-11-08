@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7e807838ae56246bdc002ec23ae966, type: 3}
+  m_Name: SMG
+  m_EditorClassIdentifier: 
+  _stats:
+    damage: 50
+    shootRate: 0.1
+    reloadTime: 1.6
+    maxAmmo: 90
+    tapeAmmo: 30
+    verticalRecoil: 2
+  GunType: 1
+  GunSlot: 0
+  Prefab: {fileID: 6842983028172811085, guid: 5883590aad3172f4898087d9cade9a71, type: 3}
